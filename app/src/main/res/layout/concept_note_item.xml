@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:transitionName="note_transition">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTextGrey"
+            android:text="Super NBNBNB"
+            android:paddingTop="@dimen/card_inside"
+            android:paddingLeft="@dimen/card_inside"
+            android:paddingRight="@dimen/card_inside"
+            android:id="@+id/concept_note_item_title"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTextGrey"
+            android:text="20 Apr"
+            android:gravity="right"
+            android:paddingTop="@dimen/card_inside"
+            android:paddingLeft="@dimen/card_inside"
+            android:paddingRight="@dimen/card_inside"
+            android:id="@+id/concept_note_item_lastmodified"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorTextGrey"
+        android:paddingLeft="@dimen/note_subline_padding"
+        android:text="Don't forget that other thingy"
+        android:id="@+id/concept_note_item_text" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:background="@color/colorBackgroundGrey"
+        android:layout_marginTop="@dimen/line_bottom_padding"
+        />
+
+
+</LinearLayout>

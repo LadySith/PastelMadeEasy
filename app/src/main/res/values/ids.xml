@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="yes" type="id"/>
+    <item name="no" type="id"/>
+    <item name="log_out_recycler" type="id"/>
+</resources>

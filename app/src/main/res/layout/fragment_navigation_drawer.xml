@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="nmmu.mills.pastelmadeeasy.Navigation.NavigationDrawerFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:id="@+id/nav_image"
+        android:gravity="center"
+        android:paddingTop="@dimen/nav_icon_margin"
+        android:clickable="false">
+
+        <ImageView
+            android:layout_width="@dimen/nav_logo_size"
+            android:layout_height="@dimen/nav_logo_size"
+            android:src="@drawable/ic_brand"
+            android:clickable="false"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/card_inside">
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/nav_icon_margin"
+                android:layout_marginRight="@dimen/nav_icon_margin"
+                android:text="Item"
+                android:textColor="@android:color/white"
+                android:layout_weight="1"
+                android:layout_gravity="center"/>
+
+            <!--<ImageView-->
+                <!--android:id="@+id/navigation_item_icon"-->
+                <!--android:layout_width="@dimen/edit_icon_size"-->
+                <!--android:layout_height="@dimen/edit_icon_size"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_marginLeft="@dimen/nav_icon_margin"-->
+                <!--android:layout_marginRight="@dimen/nav_icon_margin"-->
+                <!--android:src="@drawable/ic_edit" />-->
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/navigation_drawer_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nav_image">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+
+
+</RelativeLayout>

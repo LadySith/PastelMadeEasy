@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/card_outside"
+        android:layout_marginRight="@dimen/card_outside"
+        android:layout_marginBottom="@dimen/card_outside"
+        android:transitionName="note_transition"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:stateListAnimator="@animator/lift_on_touch">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/concept_heading_padding"
+                    android:text="Navigation"
+                    android:id="@+id/note_item_title"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/card_title_size"
+                    android:textColor="@color/colorTextGrey"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorTextGrey"
+                    android:text="20 Apr"
+                    android:gravity="right"
+                    android:paddingTop="@dimen/card_inside"
+                    android:paddingLeft="@dimen/card_inside"
+                    android:paddingRight="@dimen/card_inside"
+                    android:id="@+id/note_item_lastmodified"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line_height"
+                android:background="@color/colorBackgroundGrey"
+                android:paddingBottom="@dimen/line_bottom_padding"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/card_inside"
+                android:text="Tutorials"
+                android:id="@+id/note_item_text"
+                android:textSize="@dimen/card_text_size"
+                android:textColor="@color/colorTextGrey"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

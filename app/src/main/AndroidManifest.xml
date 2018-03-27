@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nmmu.mills.pastelmadeeasy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true">
+
+        <activity
+            android:name=".Home"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ConceptView.Concept"
+            android:label="@string/title_activity_concept"
+            android:parentActivityName=".Home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nmmu.mills.pastelmadeeasy.Home" />
+        </activity>
+        <activity
+            android:name=".StepsView.Steps"
+            android:label="@string/title_activity_steps"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".VideoView.Video"
+            android:label="@string/title_activity_video"
+            android:parentActivityName=".ConceptView.Concept"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.FullScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nmmu.mills.pastelmadeeasy.ConceptView.Concept" />
+        </activity>
+        <activity
+            android:name=".NotesView.Notes"
+            android:label="@string/title_activity_notes"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".NotesView.CreateNote"
+            android:label="@string/title_activity_create_note"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize"></activity>
+        <activity
+            android:name=".QuizView.Quiz"
+            android:label="@string/title_activity_quiz"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BrandedLaunchScreen.BrandedUI"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Login.LoginActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Login.RegisterActivity"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name=".QuizView.QuizReview"
+            android:label="@string/title_activity_quiz_review"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TutorialView.Tutorial"
+            android:label="@string/title_activity_tutorial"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".QuizView.Result"
+            android:label="@string/title_activity_result"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".TutorialView.ImageViewActivity"
+            android:label="@string/title_activity_image_view"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Login.AppWalkthrough"
+            android:label="@string/title_activity_app_walkthrough"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TutorialView.TutComplete"
+            android:label="@string/title_activity_tut_complete"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.FullScreen"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,23 @@
+Navigation,Which is the method of navigation used in all the tutorials of Pastel Made Easy?,a,Navigator,true,b,Explorer,false,c,Detector,false,d,Task Bar,false
+Navigation,Is the Ribbon a method of navigation in Pastel?,a,Yes,false,b,No,true
+Zooming (Searching),You can zoom via Code or Description.,a,True,true,b,False,false
+Zooming (Searching),Zooming is a quick way to find accounts and codes.,a,True,true,b,False,false
+Creating a GL Account,Main Account number and Sub Account number are both fields that require input when creating a new General Ledger account.,a,True,true,b,False,false
+Creating a GL Account,Income Statement and Equity Statements are the only types of accounts.,a,True,false,b,False,true
+Creating a GL Account,You go to General Ledger >> Maintain >> Budgets to create a new General Ledger account.,a,True,false,b,False,true
+Editing a GL Account,You go to General Ledger >> Maintain >> Editor to create edit General Ledger account.,a,True,false,b,False,true
+Editing a GL Account,You can change the Main Account number when editing a General Ledger account.,a,True,false,b,False,true
+Creating a New Customer,Which of the following is not something you stipulate on the Processing tab?,a,Tax Officer,true,b,Tax Code,false,c,Tax Reference,false,d,Default Tax,false
+Creating a New Customer,Credit Limits are set in the Terms tab.,a,True,true,b,False,false
+Creating a New Customer,You go to Customers >> Daily Processing >> Customer Accounts to create a customer account.,a,True,true,b,False,false
+Entering Sales Journals,The Document Type for the sales journal is a Tax Invoice.,a,True,true,b,False,false
+Entering Sales Journals,You can only enter 1 item per tax invoice.,a,True,false,b,False,true
+Entering Receipts Journals,You go to Customers >> Daily Processing >> Customer Receipts to enter info into the Receipts Journal.,a,True,true,b,False,false
+Entering Receipts Journals,All receipts are for specific accounts.,a,True,true,b,False,false
+Entering Receipts Journals,Which feature allows you to view entered lines?,a,Preview Lines,true,b,Insert Lines,false,c,Update Lines,false,d,Reconcile Lines,false
+Creating Sales Orders,Sales Orders have source documents.,a,True,true,b,False,false
+Creating Sales Orders,The Sales Order date should match the source document.,a,True,true,b,False,false
+Creating Sales Orders,A Sales Order has a customer reference.,a,True,true,b,False,false
+Creating Invoices,Tax Invoices cannot be linked to Sales Orders,a,True,false,b,False,true
+Creating Invoices,To link a Sales Order you zoom for the...?,a,Sales Order number,true,b,Customer,false,c,Inventory code,false,d,General Ledger account,false
+Creating Invoices,To create a Tax Invoice you go to Customers >> Daily Processing >> Customer Payments.,a,True,false,b,False,true

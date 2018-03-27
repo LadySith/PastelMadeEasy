@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/card_outside"
+    android:layout_marginLeft="@dimen/card_outside"
+    android:layout_marginRight="@dimen/card_outside"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:stateListAnimator="@animator/lift_on_touch">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/generic_item_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/card_inside"
+                android:layout_marginLeft="@dimen/card_inside"
+                android:layout_marginTop="@dimen/card_inside"
+                android:textColor="@color/colorTextGrey"
+                android:textSize="@dimen/card_title_size"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_width="@dimen/home_title_tick_size"
+                android:layout_height="@dimen/home_title_tick_size"
+                android:src="@drawable/ic_done_blue"
+                android:layout_margin="@dimen/card_inside"
+                android:layout_gravity="center"
+                android:visibility="invisible"
+                android:id="@+id/generic_title_tick" />
+        </LinearLayout>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_height"
+            android:background="@color/colorBackgroundGrey"
+            android:paddingBottom="@dimen/line_bottom_padding" />
+
+        <TextView
+            android:id="@+id/generic_item_extra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_margin="@dimen/card_inside"
+            android:textColor="@color/colorTextGrey" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_height"
+            android:background="@color/colorBackgroundGrey"
+            android:paddingBottom="@dimen/line_bottom_padding" />
+
+        <TextView
+            android:id="@+id/generic_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:padding="@dimen/concept_heading_padding"
+            android:text="see more"
+            android:textColor="@color/colorTextGrey"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

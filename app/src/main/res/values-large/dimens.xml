@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="nav_drawer_width">288dp</dimen>
+    <dimen name="line_height">2dp</dimen>
+    <dimen name="line_bottom_padding">10dp</dimen>
+    <dimen name="card_inside">10dp</dimen>
+    <dimen name="card_outside">10dp</dimen>
+    <dimen name="concept_heading_padding">10dp</dimen>
+    <dimen name="card_title_size">16sp</dimen>
+    <dimen name="activity_title_size">20sp</dimen>
+    <dimen name="nav_item_height">48dp</dimen>
+    <dimen name="nav_icon_size">36dp</dimen>
+    <dimen name="nav_icon_margin">16dp</dimen>
+    <dimen name="nav_text_margin">72dp</dimen>
+    <dimen name="line_width">120dp</dimen>
+    <dimen name="note_subline_padding">20dp</dimen>
+    <dimen name="question_bottom_padding">50dp</dimen>
+    <dimen name="logo_size">350dp</dimen>
+    <dimen name="nav_logo_layout_size">145dp</dimen>
+    <dimen name="nav_logo_size">125dp</dimen>
+    <dimen name="quiz_review_heading">46dp</dimen>
+</resources>

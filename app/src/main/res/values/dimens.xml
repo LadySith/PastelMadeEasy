@@ -1,0 +1,33 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="nav_drawer_width">280dp</dimen>
+    <dimen name="line_height">2dp</dimen>
+    <dimen name="line_bottom_padding">10dp</dimen>
+    <dimen name="card_inside">10dp</dimen>
+    <dimen name="card_outside">10dp</dimen>
+    <dimen name="concept_heading_padding">10dp</dimen>
+    <dimen name="card_title_size">16sp</dimen>
+    <dimen name="card_text_size">14sp</dimen>
+    <dimen name="activity_title_size">20sp</dimen>
+    <dimen name="nav_item_height">48dp</dimen>
+    <dimen name="nav_icon_size">36dp</dimen>
+    <dimen name="edit_icon_size">18dp</dimen>
+    <dimen name="nav_icon_margin">16dp</dimen>
+    <dimen name="nav_text_margin">72dp</dimen>
+    <dimen name="line_width">120dp</dimen>
+    <dimen name="note_subline_padding">20dp</dimen>
+    <dimen name="question_bottom_padding">50dp</dimen>
+    <dimen name="logo_size">250dp</dimen>
+    <dimen name="nav_logo_layout_size">145dp</dimen>
+    <dimen name="nav_logo_size">125dp</dimen>
+    <dimen name="quiz_review_heading">46dp</dimen>
+    <dimen name="walkthrough_text_margin">40dp</dimen>
+    <dimen name="walkthrough_text_height">60dp</dimen>
+    <dimen name="home_item_tick_margin">5dp</dimen>
+    <dimen name="home_item_icon_size">15dp</dimen>
+    <dimen name="answer_tick_size">20dp</dimen>
+    <dimen name="home_title_tick_size">15dp</dimen>
+</resources>

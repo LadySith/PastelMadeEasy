@@ -4,6 +4,7 @@ package nmmu.mills.pastelmadeeasy.Login;
  * Created by Sithe on 3/1/2018.
  */
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.Snackbar;
@@ -154,6 +155,9 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
             Snackbar.make(nestedScrollView, getString(R.string.success_message), Snackbar.LENGTH_LONG).show();
             emptyInputEditText();
 
+            //User Login
+            Intent loginIntent = new Intent(RegisterActivity.this, AppWalkthrough.class);
+            startActivity(loginIntent);
 
         } else {
             // Snack Bar to show error message that record already exists
